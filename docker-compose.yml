@@ -1,0 +1,8 @@
+services: 
+  routing:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always   
+    ports:
+      - "9000:9000"
