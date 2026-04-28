@@ -1,8 +1,12 @@
 const express = require('express');
 const app = express();
 const port = 7860;
-
 app.use(express.json());
+
+// Yeh add karo ✅
+app.get('/', (req, res) => {
+  res.send('Server is running! 🚀');
+});
 
 app.get('/add', (req, res) => {
   const { a, b } = req.query;
