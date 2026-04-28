@@ -1,10 +1,9 @@
 ---
-title: My App
-emoji: 🚀
+title: Secure Logger Server
+emoji: 🔒
 colorFrom: blue
 colorTo: purple
-sdk: gradio
-sdk_version: "4.20.0"
-app_file: app.py
+sdk: docker
+app_file: app.js
 pinned: false
 ---
